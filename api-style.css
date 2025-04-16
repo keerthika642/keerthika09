@@ -1,0 +1,16 @@
+body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+#joke-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+}
+button { padding: 10px 20px; font-size: 1em; cursor: pointer; }
+#error-message { margin-top: 15px; }
